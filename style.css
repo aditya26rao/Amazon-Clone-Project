@@ -257,3 +257,74 @@ ul a{
 .copy-right{
     padding-top: 5px;
 }
+/*Media Queires*/
+/*Laptops*/
+@media (min-width:999px) and (max-width:1100px) {
+    .nav-search{
+        width: 450px;  
+    }
+    .hero-msg{
+        width: 60%;
+        text-align: center;
+    }
+    .box-content h2{
+        font-size: 18px;
+    }
+    .box-img{
+        height: 250px;
+        background-size: cover;
+    }.box{
+        height: 380px;
+        width: 23.5%;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+}  
+/*Tablets*/
+@media (min-width:740px) and (max-width:999px){
+    .nav-search{
+        width: 380px;  
+    }
+    .hero-msg{
+        width: 60%;
+        text-align: center;
+    }
+    .box-content h2{
+        font-size: 18px;
+    }
+    .box-img{
+        height: 250px;
+        background-size: cover;
+    }.box{
+        height: 380px;
+        width: 45%;
+        background-color: white;
+        margin-top: 10px;
+    }
+    
+
+}
+/*Moblie*/
+@media (min-width:540px) and (max-width:740px){
+    .nav-search{
+        width: 380px;  
+    }
+    .hero-msg{
+        width: 60%;
+        text-align: center;
+    }
+    .box-content h2{
+        font-size: 18px;
+    }
+    .box-img{
+        height: 250px;
+        background-size: cover;
+    }.box{
+        height: 380px;
+        width: 45%;
+        background-color: white;
+        margin-top: 10px;
+    }
+
+}
